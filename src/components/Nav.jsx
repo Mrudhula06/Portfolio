@@ -54,19 +54,19 @@ const Nav = () => {
         <div className='lg:hidden'>
           <ul>
           <li className='text-black text-xl mb-2 cursor-pointer'>
-              <Link to="/" onClick={closeMenu}>Home</Link>
+              <Link onClick={()=>closeMenu('home')}>Home</Link>
             </li>
             <li className='text-black text-xl mb-2 cursor-pointer'>
-              <Link to="/about" onClick={closeMenu}>About</Link>
+              <Link onClick={()=>closeMenu('about')}>About</Link>
             </li>
             <li className='text-black text-xl mb-2 cursor-pointer'>
-              <Link to="/details" onClick={closeMenu}>Details</Link>
+              <Link onClick={()=>closeMenu('details')}>Details</Link>
             </li>
             <li className='text-black text-xl mb-2 cursor-pointer'>
-              <Link to="/projects" onClick={closeMenu}>Projects</Link>
+              <Link onClick={()=>closeMenu('projects')}>Projects</Link>
             </li>
             <li className='text-black text-xl mb-2 cursor-pointer'>
-              <Link to="/contact" onClick={closeMenu}>Contact</Link>
+              <Link onClick={()=>closeMenu('contact')}>Contact</Link>
             </li>
           </ul>
         </div>
