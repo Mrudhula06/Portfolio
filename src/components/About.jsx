@@ -1,0 +1,51 @@
+import React from "react";
+import "./About.css";
+import profile from "../images/profiles.png";
+
+const About = () => {
+  const resumeLink = "https://drive.google.com/drive/folders/1LckUnLPhs4CUN8MIJrbiyugkHV0Cfgzt?hl=id";
+
+  const handleGetResume = () => {
+    window.open(resumeLink, "_blank");
+  };
+
+  return (
+    <div id="about" className="p-6 mt-4">
+      <h1 className="text-2xl lg:text-3xl font-bold mb-4 text-black text-center mt-32">
+        About Me
+      </h1>
+      <section
+        id="home"
+        className="flex flex-col lg:flex-row p-4 lg:p-10 space-y-4 lg:space-y-10"
+      >
+        <div className="content bg-white p-6 rounded-lg text-center w-full lg:w-auto lg:flex lg:items-center justify-center">
+          <div className="lg:mr-4">
+            <div className="rounded-full overflow-hidden custom-border">
+              <img
+                src={profile}
+                alt=""
+                className="w-full h-auto lg:w-64 lg:h-64 rounded-full"
+              />
+            </div>
+          </div>
+          <div className="lg:max-w-md text-center"> {/* Centered container */}
+            <p className="text-base lg:text-xl ssm:text-xl mb-2 mt-4 lg:mt-0 lg:mb-4 lg:pr-10">
+              Seeking a challenging position in a respected organization where I
+              can passionately expand my skills and knowledge. Eager to
+              contribute my dedication and enthusiasm to a team environment for
+              mutual growth and success
+            </p>
+            <button
+                onClick={() => redirectToGitHub("https://github.com/Mrudhula06/Online-Quiz.git")}
+                className="mt-4 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+              >
+                Resume
+              </button>
+          </div>
+        </div>
+      </section>
+    </div>
+  );
+};
+
+export default About;
