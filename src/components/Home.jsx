@@ -38,7 +38,7 @@ function Home() {
                 className="border-7 hover:border-black rounded-full"
               />
             </a>
-            <a
+            {/* <a
               href="https://www.instagram.com/mrudhula_manikantan/"
               target="_blank"
               rel=""
@@ -46,8 +46,8 @@ function Home() {
               <BsInstagram
                 size={30}
                 className="border-7 hover:border-black rounded-full"
-              />
-            </a>
+              /> 
+            </a> */}
             <a href="https://github.com/Mrudhula06" target="_blank" rel="">
               <BsGithub
                 size={30}
