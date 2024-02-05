@@ -66,13 +66,13 @@ function Home() {
             </a>
           </div>
         </div>
-        <div className="w-full lg:w-1/2 ssm:w-full items-center lg:mr-auto">
+        <div className="w-full lg:w-1/2 sm:w-full h-full items-center lg:mr-auto ssm:justify-center ssm:flex ssm:mr-40 ssm:mt-28 ss:mr-64">
           <img
             src={profile}
             alt=""
             width={350}
             height={350}
-            className="rounded-full custom-border"
+            className="rounded-full custom-border ssm:w-250 ssm:350"
           />
         </div>
       </section>
