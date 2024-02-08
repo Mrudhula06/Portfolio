@@ -6,7 +6,7 @@ const About = () => {
   const resumeLink = "https://drive.google.com/drive/folders/1LckUnLPhs4CUN8MIJrbiyugkHV0Cfgzt?hl=id";
 
   const handleGetResume = () => {
-    window.open(resumeLink, "_blank");
+    window.open("https://drive.google.com/drive/u/0/folders/1fyMeNHcYlamLXERma3Rg9OuwspDEad_i", "_blank");
   };
 
   return (
@@ -36,7 +36,7 @@ const About = () => {
               mutual growth and success
             </p>
             <button
-                onClick={() => redirectToGitHub("https://github.com/Mrudhula06/Online-Quiz.git")}
+                onClick={handleGetResume}
                 className="mt-4 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
               >
                 Resume
