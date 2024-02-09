@@ -40,7 +40,7 @@ const Nav = () => {
           <HiMenuAlt1 onClick={handleToggle} size={30} className='text-black cursor-pointer' />
         </div>
         <div className="hidden lg:flex space-x-2">
-          <Link onClick={()=>closeMenu('home')} className="text-black hover:bg-green-200 hover:border-b-2 border-black rounded-full px-5 py-2 text-xl cursor-pointer">Home</Link>
+          <Link onClick={()=>closeMenu('home')} className="text-black hover:bg-green-200 hover:border-b-2 border-black rounded-full px-5 py-2 text-xl">Home</Link>
           <Link onClick={()=>closeMenu('about')} className="text-black hover:bg-green-200 hover:border-b-2 border-black rounded-full px-5 py-2 text-xl">About</Link>
           <Link onClick={()=>closeMenu('details')} className="text-black hover:bg-green-200 hover:border-b-2 border-black rounded-full px-5 py-2 text-xl">Details</Link>
           <Link onClick={()=>closeMenu('projects')} className="text-black hover:bg-green-200 hover:border-b-2 border-black rounded-full px-5 py-2 text-xl">Projects</Link>
