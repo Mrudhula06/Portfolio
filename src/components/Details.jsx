@@ -6,7 +6,7 @@ const Details = () => {
   return (
     <div>
       {/* First container */}
-      <div id="details" className="p-6 mt-20 rounded-xl overflow-visible mx-auto">
+      <div id="details" className="p-6 mt-20 rounded-xl overflow-visible mx-auto max-w-5xl">
         <h1 className="text-2xl lg:text-3xl font-bold mb-4 text-black text-center mt-32">
           Details
         </h1>

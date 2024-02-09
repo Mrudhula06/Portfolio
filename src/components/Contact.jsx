@@ -39,7 +39,7 @@ function Contact() {
           </div>
           <div className='flex justify-center'>
           <button
-                onClick={() => redirectToGitHub("https://github.com/Mrudhula06/Online-Quiz.git")}
+                
                 className="mt-4 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
               >
                 Send
