@@ -22,7 +22,7 @@ function Home() {
 
   return (
     <div id="home" className="p-20 rounded-lg mt-16">
-      <section className="content-box flex justify-evenly items-center p-10 space-x-10 ">
+      <section className="content-box flex justify-evenly items-center p-10 space-x-10 mt-16 ">
         <div className=" flex flex-col items-center p-10">
           <p className="text-2xl mb-2 z-50 mt-4">I'm Mrudhula Shri M</p>
           <p className="mt-2 text-xl">{displayText}</p>
