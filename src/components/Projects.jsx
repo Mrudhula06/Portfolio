@@ -13,7 +13,7 @@ function Project() {
   return (
     <>
       <div id='projects' className="p-4"> 
-      <h1 className='text-2xl lg:text-3xl font-bold mb-4 text-black text-center mt-32'>Projects</h1>
+      <h1 className='text-2xl lg:text-3xl font-bold mb-4 text-black text-center mt-16'>Projects</h1>
         </div>
         <div className=" max-w-screen-md mx-auto"> 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-2 p-5 ">

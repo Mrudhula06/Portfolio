@@ -7,7 +7,7 @@ const Details = () => {
     <div>
       {/* First container */}
       <div id="details" className="p-6 mt-20 rounded-xl overflow-visible mx-auto max-w-5xl">
-        <h1 className="text-2xl lg:text-3xl font-bold mb-4 text-black text-center mt-32">
+        <h1 className="text-2xl lg:text-3xl font-bold mb-4 text-black text-center mt-16">
           Details
         </h1>
         <section className="flex flex-col lg:flex-row p-4 lg:p-10 space-y-4 lg:space-y-10 rounded-xl bg-white">
@@ -54,7 +54,7 @@ const Details = () => {
       </div>
 
       {/* Skills container */}
-      <div id="skills" className="p-6 mt-20 rounded-xl overflow-visible mx-auto max-w-5xl">
+      <div id="skills" className="p-6 mt-4 rounded-xl overflow-visible mx-auto max-w-5xl">
         <h1 className="text-2xl lg:text-3xl font-bold mb-4 text-black text-center">
           Skills
         </h1>
