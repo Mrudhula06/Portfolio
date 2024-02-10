@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import { CgNametag } from 'react-icons/cg';
 import { HiMenuAlt1 } from 'react-icons/hi';
 import { Link } from 'react-router-dom';
-
+import logo from "../images/logos.png";
 const Nav = () => {
   const [toggle, setToggle] = useState(false);
 
@@ -34,7 +34,11 @@ const Nav = () => {
     <div className='bg-white fixed top-0 right-0 left-0 start-0 z-10'>
       <div className="flex items-center justify-between p-4 lg:p-8 lg:flex-row">
         <div className="text-black font-bold text-3xl tracking-wider flex items-center cursor-pointer">
-          <CgNametag />M
+        <img
+            src={logo}
+            alt=""
+            className="w-[3rem] h-[3rem]"
+          />
         </div>
         <div className="text-black space-x-4 lg:hidden">
           <HiMenuAlt1 onClick={handleToggle} size={30} className='text-black cursor-pointer' />
