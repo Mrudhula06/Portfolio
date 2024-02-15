@@ -30,7 +30,7 @@ const About = () => {
           </div>
           <div className="lg:max-w-md text-center"> {/* Centered container */}
             <p className="text-base lg:text-xl ssm:text-xl mb-2 mt-4 lg:mt-0 lg:mb-4 lg:pr-10">
-              Seeking a challenging position in a respected organization where I
+              Seeking a challenging position in a reputed organization where I
               can passionately expand my skills and knowledge. Eager to
               contribute my dedication and enthusiasm to a team environment for
               mutual growth and success
