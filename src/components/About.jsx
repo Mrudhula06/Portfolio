@@ -1,13 +1,14 @@
 import React from "react";
 import "./About.css";
 import profile from "../images/profiles.png";
+import Resume from "../images/Mrudhula Shri M.pdf";
 
 const About = () => {
   const resumeLink = "https://drive.google.com/drive/folders/1LckUnLPhs4CUN8MIJrbiyugkHV0Cfgzt?hl=id";
 
-  const handleGetResume = () => {
-    window.open("https://drive.google.com/drive/u/0/folders/1fyMeNHcYlamLXERma3Rg9OuwspDEad_i", "_blank");
-  };
+  // const handleGetResume = () => {
+  //   window.open("https://drive.google.com/drive/u/0/folders/1fyMeNHcYlamLXERma3Rg9OuwspDEad_i", "_blank");
+  // };
 
   return (
     <div id="about" className="p-6 mt-4">
@@ -35,12 +36,8 @@ const About = () => {
               contribute my dedication and enthusiasm to a team environment for
               mutual growth and success
             </p>
-            <button
-                onClick={handleGetResume}
-                className="mt-4 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
-              >
-                Resume
-              </button>
+            <a href={Resume} download><button className="mt-4 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Resume</button>
+            </a>
           </div>
         </div>
       </section>
