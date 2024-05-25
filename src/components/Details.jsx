@@ -70,14 +70,6 @@ const Details = () => {
                 </div>
               </li>
               <li className="mb-2">
-                <span className='font-bold'>C Programming</span>
-                <div className='flex items-center'>
-                  <div className='w-full'>
-                    <LinearProgress color="primary" variant="determinate" value={50} />
-                  </div>
-                </div>
-              </li>
-              <li className="mb-2">
                 <span className='font-bold'>HTML, CSS, JavaScript</span>
                 <div className='flex items-center'>
                   <div className='w-full'>
