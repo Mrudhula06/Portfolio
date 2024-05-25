@@ -4,7 +4,7 @@ import profile from "../images/profiles.png";
 import Resume from "../images/Mrudhula Shri M.pdf";
 
 const About = () => {
-  const resumeLink = "https://drive.google.com/drive/folders/1LckUnLPhs4CUN8MIJrbiyugkHV0Cfgzt?hl=id";
+  const resumeLink = "https://drive.google.com/file/d/1xDcmF6AuKtTJYya8dzTSJ41J1DMa3dk0/view?usp=drive_link";
 
   // const handleGetResume = () => {
   //   window.open("https://drive.google.com/drive/u/0/folders/1fyMeNHcYlamLXERma3Rg9OuwspDEad_i", "_blank");
@@ -36,7 +36,7 @@ const About = () => {
               contribute my dedication and enthusiasm to a team environment for
               mutual growth and success
             </p>
-            <a href={Resume} download><button className="mt-4 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Resume</button>
+            <a href={resumeLink} download><button className="mt-4 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Resume</button>
             </a>
           </div>
         </div>
