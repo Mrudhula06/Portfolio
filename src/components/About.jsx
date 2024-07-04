@@ -1,7 +1,7 @@
 import React from "react";
 import "./About.css";
 import profile from "../images/profiles.png";
-import Resume from "../images/Mrudhula Shri M.pdf";
+import Resume from "../images/Mrudhula Shri.M (3).pdf";
 
 const About = () => {
   const resumeLink = "https://drive.google.com/file/d/1xDcmF6AuKtTJYya8dzTSJ41J1DMa3dk0/view?usp=drive_link";
