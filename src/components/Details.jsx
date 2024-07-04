@@ -94,7 +94,7 @@ const Details = () => {
                 </div>
               </li>
               <li className="mb-2">
-                <span className='font-bold'>MONGODB</span>
+                <span className='font-bold'>MongoDB</span>
                 <div className='flex items-center'>
                   <div className='w-full'>
                     <LinearProgress color="primary" variant="determinate" value={50} />
