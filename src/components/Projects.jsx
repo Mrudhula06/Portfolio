@@ -178,7 +178,7 @@ function Project() {
               </p>
               <button
                 onClick={() =>
-                  redirectToGitHub("https://github.com/Mrudhula06/WeatherApp_f.e.git")
+                  redirectToGitHub("https://github.com/Mrudhula06/Weather-f.e.git")
                 }
                 className="mt-4 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
               >

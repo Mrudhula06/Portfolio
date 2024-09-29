@@ -4,7 +4,7 @@ import profile from "../images/profiles.png";
 import Resume from "../images/Mrudhula Shri.M (3).pdf";
 
 const About = () => {
-  const resumeLink = "https://drive.google.com/file/d/1xDcmF6AuKtTJYya8dzTSJ41J1DMa3dk0/view?usp=drive_link";
+  const resumeLink = "https://drive.google.com/file/d/1lecRZdoKkJSDZRPY2K_1XChi5uMhFk9x/view?usp=sharing";
 
   // const handleGetResume = () => {
   //   window.open("https://drive.google.com/drive/u/0/folders/1fyMeNHcYlamLXERma3Rg9OuwspDEad_i", "_blank");
