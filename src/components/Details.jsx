@@ -19,7 +19,7 @@ const Details = () => {
                     <div className='md:grid md:grid-cols-[5fr_1fr]'>
                       <li className="square-bullet">
                         <span className='font-bold'>Kongu Engineering College, Erode</span>
-                        <p>Secured CGPA - 8.15(till 5th sem)</p>
+                        <p>Secured CGPA - 8.22(till 6th sem)</p>
                         <div className='time_period'>
                           <p className='flex items-center rounded-full w-fit px-4'>2021-2025</p>
                         </div>
@@ -95,22 +95,6 @@ const Details = () => {
               </li>
               <li className="mb-2">
                 <span className='font-bold'>MongoDB</span>
-                <div className='flex items-center'>
-                  <div className='w-full'>
-                    <LinearProgress color="primary" variant="determinate" value={50} />
-                  </div>
-                </div>
-              </li>
-              <li className="mb-2">
-                <span className='font-bold'>Figma</span>
-                <div className='flex items-center'>
-                  <div className='w-full'>
-                    <LinearProgress color="primary" variant="determinate" value={60} />
-                  </div>
-                </div>
-              </li>
-              <li className="mb-2">
-                <span className='font-bold'>C Programming</span>
                 <div className='flex items-center'>
                   <div className='w-full'>
                     <LinearProgress color="primary" variant="determinate" value={50} />
